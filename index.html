@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destanto Dwi Anggoro - Creative Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+        <div class="container">
+            <a class="navbar-brand" href="#" id="navbarBrand">
+                <span class="brand-text">Destanto</span>
+                <span class="brand-accent">Dwi Anggoro</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">
+                            <i class="fas fa-home"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            <i class="fas fa-user"></i>
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">
+                            <i class="fas fa-code"></i>
+                            <span>Skills</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Portfolio</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            <i class="fas fa-envelope"></i>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section d-flex align-items-center min-vh-100">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-2 order-lg-1">
+                    <div class="hero-content">
+                        <div class="hero-greeting">
+                            <span class="greeting-text">Halo, saya</span>
+                        </div>
+                        <h1 class="hero-title">
+                            <span class="typing-text" id="typingText">Destanto Dwi Anggoro</span>
+                            <span class="cursor">|</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            <span class="highlight">Pengembang Web</span> yang bersemangat dalam menciptakan 
+                            <span class="highlight">solusi digital</span> yang inovatif dan menarik.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#portfolio" class="btn btn-primary btn-lg me-3">
+                                <i class="fas fa-rocket"></i>
+                                Lihat Portofolio
+                            </a>
+                            <a href="#contact" class="btn btn-outline-light btn-lg">
+                                <i class="fas fa-paper-plane"></i>
+                                Hubungi Saya
+                            </a>
+                        </div>
+                        <div class="hero-social">
+                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2">
+                    <div class="hero-image">
+                        <div class="image-container">
+                            <div class="floating-shapes">
+                                <div class="shape shape-1"></div>
+                                <div class="shape shape-2"></div>
+                                <div class="shape shape-3"></div>
+                            </div>
+                            <img src="foto.jpg" alt="Destanto Dwi Anggoro" class="profile-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-header text-center">
+                        <h2 class="section-title">Tentang Saya</h2>
+                        <div class="section-divider"></div>
+                        <p class="section-subtitle">Mengenal lebih dekat dengan perjalanan dan passion saya</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <p class="about-text">
+                            Saya adalah seorang <strong>pengembang web</strong> dengan pengalaman dalam membangun 
+                            aplikasi web yang responsif dan user-friendly. Saya memiliki keahlian dalam 
+                            <span class="tech-highlight">HTML</span>, <span class="tech-highlight">CSS</span>, 
+                            <span class="tech-highlight">JavaScript</span>, dan <span class="tech-highlight">Bootstrap</span>.
+                        </p>
+                        <p class="about-text">
+                            Saya selalu antusias untuk mempelajari teknologi baru dan menerapkan praktik terbaik 
+                            dalam setiap proyek. Passion saya adalah menciptakan pengalaman digital yang tidak 
+                            hanya fungsional, tetapi juga estetis dan menyenangkan untuk digunakan.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="50">0</div>
+                                <div class="stat-label">Proyek Selesai</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="3">0</div>
+                                <div class="stat-label">Tahun Pengalaman</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="100">0</div>
+                                <div class="stat-label">Klien Puas</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-visual">
+                        <div class="code-snippet">
+                            <div class="code-header">
+                                <div class="code-dots">
+                                    <span class="dot red"></span>
+                                    <span class="dot yellow"></span>
+                                    <span class="dot green"></span>
+                                </div>
+                                <span class="code-title">about-me.js</span>
+                            </div>
+                            <div class="code-content">
+                                <pre><code><span class="code-keyword">const</span> <span class="code-variable">developer</span> = {
+  <span class="code-property">name</span>: <span class="code-string">"Destanto Dwi Anggoro"</span>,
+  <span class="code-property">role</span>: <span class="code-string">"Web Developer"</span>,
+  <span class="code-property">skills</span>: [<span class="code-string">"HTML"</span>, <span class="code-string">"CSS"</span>, <span class="code-string">"JavaScript"</span>],
+  <span class="code-property">passion</span>: <span class="code-string">"Creating amazing web experiences"</span>,
+  <span class="code-property">coffee</span>: <span class="code-boolean">true</span>
+};</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-header text-center">
+                        <h2 class="section-title">Keahlian</h2>
+                        <div class="section-divider"></div>
+                        <p class="section-subtitle">Teknologi dan tools yang saya kuasai</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h4 class="skill-title">HTML5</h4>
+                        <p class="skill-description">Struktur dasar web dengan semantic markup</p>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="90"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h4 class="skill-title">CSS3</h4>
+                        <p class="skill-description">Styling dan animasi yang menarik</p>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="85"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <h4 class="skill-title">JavaScript</h4>
+                        <p class="skill-description">Interaktivitas dan logika aplikasi</p>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="80"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-bootstrap"></i>
+                        </div>
+                        <h4 class="skill-title">Bootstrap</h4>
+                        <p class="skill-description">Framework CSS untuk rapid development</p>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="88"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-header text-center">
+                        <h2 class="section-title">Portofolio</h2>
+                        <div class="section-divider"></div>
+                        <p class="section-subtitle">Beberapa proyek yang telah saya kerjakan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row portfolio-grid">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/400x300/0d6efd/ffffff?text=E-Commerce" alt="Proyek E-commerce">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <h5>Website E-commerce</h5>
+                                    <p>Platform jual beli online dengan fitur lengkap</p>
+                                    <div class="portfolio-links">
+                                        <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+                                        <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h5 class="portfolio-title">Proyek Website E-commerce</h5>
+                            <div class="portfolio-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/400x300/28a745/ffffff?text=Task+Manager" alt="Aplikasi Task Manager">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <h5>Aplikasi Task Manager</h5>
+                                    <p>Aplikasi manajemen tugas yang intuitif</p>
+                                    <div class="portfolio-links">
+                                        <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+                                        <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h5 class="portfolio-title">Aplikasi Manajemen Tugas</h5>
+                            <div class="portfolio-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/400x300/ffc107/ffffff?text=Landing+Page" alt="Landing Page">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <h5>Landing Page Perusahaan</h5>
+                                    <p>Desain modern untuk startup teknologi</p>
+                                    <div class="portfolio-links">
+                                        <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+                                        <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h5 class="portfolio-title">Desain Landing Page Perusahaan</h5>
+                            <div class="portfolio-tags">
+                                <span class="tag">Bootstrap</span>
+                                <span class="tag">SASS</span>
+                                <span class="tag">jQuery</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-header text-center">
+                        <h2 class="section-title">Hubungi Saya</h2>
+                        <div class="section-divider"></div>
+                        <p class="section-subtitle">Mari berkolaborasi untuk proyek yang menakjubkan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="contact-form-wrapper">
+                        <form id="contactForm" class="contact-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <label for="name" class="form-label">Nama Lengkap</label>
+                                        <input type="text" class="form-control" id="name" required>
+                                        <div class="form-focus-line"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                        <div class="form-focus-line"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-group">
+                                    <label for="subject" class="form-label">Subjek</label>
+                                    <input type="text" class="form-control" id="subject" required>
+                                    <div class="form-focus-line"></div>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <div class="form-group">
+                                    <label for="message" class="form-label">Pesan</label>
+                                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                                    <div class="form-focus-line"></div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">
+                                    <span class="btn-text">Kirim Pesan</span>
+                                    <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="footer-content">
+                        <p>&copy; 2025 Destanto Dwi Anggoro. Dibuat dengan <i class="fas fa-heart text-danger"></i> dan <i class="fas fa-coffee"></i></p>
+                        <div class="footer-social">
+                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
